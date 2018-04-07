@@ -111,6 +111,7 @@ $(document).ready(function() {
 
 
   	function handleArticleScrape() {
+			console.log("yes");
     	$.get("/scrape")
 		.then(function(data) {
 			initPage();
